@@ -14,9 +14,36 @@ draw = function(){
   
   if (answer == 1) {
     text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text(" Of course", 159, 229); 
   }
   
+   
+  if (answer == 2) {
+    text("YOUR", 176, 200);
+    text("Yes please", 159, 229); 
+  }
+  
+   
+  if (answer == 3) {
+    text("YOUR", 176, 200);
+    text(" no just no", 159, 229); 
+  }
+  
+   
+  if (answer == 4) {
+    text("YOUR", 176, 200);
+    text(" YES", 159, 229); 
+  }
+  
+   
+  if (answer == 5) {
+    text("YOUR", 176, 200);
+    text(" In due time", 159, 229); 
+  }
+  
+  if(mousePressed){
+  text("God Bless", random (0, 70), random (0,90));
+  }
 };
 
 mouseClicked = function(){
