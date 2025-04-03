@@ -41,5 +41,12 @@ var drawScene = function(){
    text(sceneText, 10, 375);
 };
 
+setup = function () {
+size(400,400);
+background(255,255,247);
+stroke(173,222,237);
 
-
+//for(start;how long;change)
+for (var i=55; i<350 i; i+=20) {
+text ();
+}
