@@ -30,7 +30,7 @@ draw = function(){
 };
 
 var drawScene = function(){
-    image(sceneImage, 0, 0);
+    image(sceneImage, 0, 0, 600, 400);
     
     fill(0,0,0);
     rect(0, 350, 600, 100);
@@ -40,6 +40,3 @@ var drawScene = function(){
    
    text(sceneText, 10, 375);
 };
-
-
-
